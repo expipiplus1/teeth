@@ -1,4 +1,4 @@
-module Teeth (ToothType(..), Quadrant(..), Tooth(..)) where
+module Anatomy.Teeth (ToothType(..), Quadrant(..), Tooth(..)) where
 
 -- |The ToothType datatype represents a tooth's position in a quadrant
 data ToothType = CentralIncisor
