@@ -1,4 +1,8 @@
-module Anatomy.Teeth (ToothType(..), Quadrant(..), Tooth(..)) where
+module Anatomy.Teeth (Tooth(..), ToothType(..), Quadrant(..)) where
+
+-- |A Tooth has a type of tooth and the quadrant in which it is located
+data Tooth = Tooth Quadrant ToothType
+  deriving (Eq, Read, Show)
 
 -- |The ToothType datatype represents a tooth's position in a quadrant
 data ToothType = CentralIncisor
@@ -18,6 +22,3 @@ data Quadrant = LowerLeft
               | UpperRight
   deriving (Eq, Read, Show)
 
--- |A Tooth has a type of tooth and the quadrant in which it is located
-data Tooth = Tooth Quadrant ToothType
-  deriving (Eq, Read, Show)
