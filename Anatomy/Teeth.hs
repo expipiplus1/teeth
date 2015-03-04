@@ -1,3 +1,4 @@
+-- |A module containing data types for the pointy things in your mouth
 module Anatomy.Teeth (Tooth(..), ToothType(..), Quadrant(..)) where
 
 -- |A Tooth has a type of tooth and the quadrant in which it is located
