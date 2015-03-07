@@ -9,11 +9,11 @@ data Tooth = Tooth Quadrant ToothType
 data ToothType = CentralIncisor
                | LateralIncisor
                | Canine
-               | Premolar1
-               | Premolar2
-               | Molar1
-               | Molar2
-               | Molar3
+               | FirstPremolar
+               | SecondPremolar
+               | FirstMolar
+               | SecondMolar
+               | ThirdMolar
   deriving (Enum, Eq, Ord, Read, Show)
 
 -- |It's like a compass, but for your mouth
