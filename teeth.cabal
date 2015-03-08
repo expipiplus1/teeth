@@ -6,7 +6,7 @@ homepage:            https://github.com/expipiplus1/teeth
 license:             MIT
 license-file:        license
 author:              Joe Hermaszewski
-maintainer:          joe@monoid.al
+maintainer:          haskell@monoid.al
 copyright:           copyright © 2015 Joe Hermaszewski
 category:            Anatomy
 build-type:          Simple
