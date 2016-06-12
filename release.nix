@@ -2,7 +2,7 @@
 
 { src ? { outPath = ./.; revCount = 0; gitTag = "dirty"; }
 , supportedPlatforms ? [ "x86_64-linux" ]
-, supportedCompilers ? [ "ghc7103" "ghc801" ]
+, supportedCompilers ? [ "ghc7103" "ghc801" "ghcHEAD" ]
 }:
 
 let
