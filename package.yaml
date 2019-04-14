@@ -1,0 +1,18 @@
+name: teeth
+version: 0.2.0.2
+synopsis: Dental data types
+description: Some data types useful for describing the hard pointy things inside your
+  mouth
+category: Anatomy
+author: Joe Hermaszewski
+maintainer: roots@monoid.al
+copyright: copyright 2015 Joe Hermaszewski
+license: MIT
+license-file: license
+github: expipiplus1/teeth
+dependencies:
+- base >=4.7 && <4.13
+
+library:
+  exposed-modules:
+  - Anatomy.Teeth

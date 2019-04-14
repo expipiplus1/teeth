@@ -1,22 +1,34 @@
-name:                teeth
-version:             0.2.0.2
-synopsis:            Dental data types
-description:         Some data types useful for describing the hard pointy things inside your mouth
-homepage:            https://github.com/expipiplus1/teeth
-license:             MIT
-license-file:        license
-author:              Joe Hermaszewski
-maintainer:          roots@monoid.al
-copyright:           copyright © 2015 Joe Hermaszewski
-category:            Anatomy
-build-type:          Simple
-cabal-version:       >=1.10
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.2.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 1eb77efb0664187a01b9976df8251a74b178ea7dd84c1f3909431a19300e4813
+
+name:           teeth
+version:        0.2.0.2
+synopsis:       Dental data types
+description:    Some data types useful for describing the hard pointy things inside your mouth
+category:       Anatomy
+homepage:       https://github.com/expipiplus1/teeth#readme
+bug-reports:    https://github.com/expipiplus1/teeth/issues
+author:         Joe Hermaszewski
+maintainer:     roots@monoid.al
+copyright:      copyright 2015 Joe Hermaszewski
+license:        MIT
+license-file:   license
+build-type:     Simple
 
 source-repository head
   type: git
   location: https://github.com/expipiplus1/teeth
 
 library
-  exposed-modules:     Anatomy.Teeth
-  build-depends:       base >=4.7 && <4.13
-  default-language:    Haskell2010
+  exposed-modules:
+      Anatomy.Teeth
+  other-modules:
+      Paths_teeth
+  build-depends:
+      base >=4.7 && <4.13
+  default-language: Haskell2010
